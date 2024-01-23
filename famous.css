@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+
+
+p {
+    font-size: 20px;
+    margin-top: 102px;
+    margin-bottom: 62px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+
+
+/* header */
+
+.header-box {
+    height: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .1);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+    background: brown;
+    color: white;
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: 100%;
+}
+
+a {
+    display: block;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+}
+
+.line {
+    background-color: black;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+.line:nth-of-type(1) {
+    top: 0;
+}
+
+.line:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line:nth-of-type(3) {
+    bottom: 0;
+}
+
+.pc-menu ul li a{
+    background-color: white;
+    color: brown;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.pc-menu ul li{
+    letter-spacing: 0.1em;
+    margin-right: 15px;
+}
+
+.pc-menu ul li a:hover{
+    color: white;
+    background-color: brown;
+}
+
+/* headerここまで */
+
+#box{
+    margin-top: 130px;
+    margin-left: 40px;
+    background-color: #F4F4DE;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    width: 400px;
+    height: 388px;
+    top: 509px;
+    left: 125px;
+}
+
+.set{
+    display: block;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+p{
+    margin: 30px;
+    background-color: #F4F4DE;
+}
+
+footer a{
+    display: inline;
+}
+
+
+
+#body{
+    background-color: #F4F4DE;
+}
+
+img{
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+}
+
+.set{
+    display: block;
+    display: flex;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.set img{
+    width: 300px;
+    height: 300px;
+}
+
+ .title-name h1{
+    margin-bottom: 50px;
+}
