@@ -18,8 +18,10 @@ body{
     background-color: #F4F4DE;
 }
 
-.list{
+.person{
     display: inline;
+    margin: 0 30px ;
+    font-size: 25px;
 }
 
 body{
