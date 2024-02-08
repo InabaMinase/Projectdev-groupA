@@ -4,14 +4,17 @@ img{
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 .set{
     display: block;
     display: flex;
-   
+}
+
+.one-box{
+    margin-bottom: 100px;
 }
 
 body{
