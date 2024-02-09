@@ -1,0 +1,25 @@
+.hoge{
+    display: flex;
+}
+img{
+    width: 40%;
+    height: 30%px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    
+}
+p{
+    margin: 0 40px 40px 40px;
+}
+h1{
+    margin-left: 30px;
+    margin-top: 100px;
+   
+      
+      
+}
+p{
+    font-size: 20px;
+    vertical-align: top;
+}
+
