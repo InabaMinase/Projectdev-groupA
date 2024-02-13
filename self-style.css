@@ -1,0 +1,16 @@
+.hogepi{
+   display: flex;
+    
+
+}
+.name{
+    font-size: 40px;
+}
+.introduction{
+    font-size: 20px;
+    margin-left: 70px;
+}
+.yo{
+    margin: 70px 50px 50px 50px;
+   
+}
