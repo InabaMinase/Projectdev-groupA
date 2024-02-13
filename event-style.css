@@ -22,3 +22,11 @@ p{
     font-size: 20px;
     vertical-align: top;
 }
+
+body{
+    background-color: #F4F4DE;
+}
+
+.why{
+    margin-top: 200px;
+}
